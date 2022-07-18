@@ -42,15 +42,16 @@
 
 .login_label{    
     display: block;
+    float: left;
     margin-bottom: 20px;
     margin-top: 10px;
-    width: 100%;
+    width: 100%;     
 }
 
 .input{
     width: 100%;
     background-color: var(--light-grey);
-    border: none;
+    border: 2px solid var(--white);
     border-radius: 5px;
     outline: none;
     font-size: 0.9em;
@@ -59,3 +60,29 @@
     color: var(--deep-grey); 
 
 }
+
+.login_label span{
+    position: absolute;
+    font-size: 0.8em;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: var(--medium-grey);
+    margin: 20px;
+    cursor: text;
+    transition: all 200ms ease;
+}
+
+.input:focus{
+    background-color: var(--whitesmoke);
+    border: 2px solid var(--deep-grey);    
+
+}
+
+.login_label .span_active{
+    font-size: 0.7em;
+    margin: 8px 10px;
+    font-weight: 600;
+}
+
+
+
