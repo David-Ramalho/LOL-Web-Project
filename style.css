@@ -102,7 +102,7 @@
 }
 
 .login_icons .icons_button:nth-child(1){
-    background-color: #1B77F3;
+    background-color: #1B77F3;    
 }
 
 .login_icons .icons_button:nth-child(2){
@@ -111,4 +111,24 @@
 
 .login_icons .icons_button:nth-child(3){
     background-color: black;
+}
+
+@keyframes button-animation{
+    from{
+         opacity: 50%;
+    }
+
+    to{
+        opacity: 100%;
+    }
+}
+
+.Login_label--checkbox{
+    
+    width: 100%;
+    margin: 5px 0px 10px;
+    font-size: 1.0em;
+    font-weight: 500;
+    display:flex;
+    align-items: center;
 }

@@ -1,4 +1,5 @@
 const inputs= document.querySelectorAll('.input');
+const buttons= document.querySelectorAll('.login_icons.icons_button');
 
 const handleFocus = ({target})=>{    
    const span = target.previousElementSibling;
@@ -21,3 +22,6 @@ inputs.forEach((input) =>{
 inputs.forEach((input) =>{
     input.addEventListener('focusout',handleFocusOut)
 });
+
+
+buttons.addEventListener('click',handleFocusOut);
