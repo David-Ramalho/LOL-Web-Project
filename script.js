@@ -24,4 +24,3 @@ inputs.forEach((input) =>{
 });
 
 
-buttons.addEventListener('click',handleFocusOut);
