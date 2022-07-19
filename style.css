@@ -97,4 +97,18 @@
 
 .icons_button{
     width: 33.33%;
+    cursor: pointer; 
+    border: none;         
+}
+
+.login_icons .icons_button:nth-child(1){
+    background-color: #1B77F3;
+}
+
+.login_icons .icons_button:nth-child(2){
+    background-color: var(--light-grey);
+}
+
+.login_icons .icons_button:nth-child(3){
+    background-color: black;
 }
