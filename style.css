@@ -81,8 +81,16 @@
 .login_label .span_active{
     font-size: 0.7em;
     margin: 8px 10px;
-    font-weight: 600;
+    font-weight: 600;    
 }
 
+.login_icons{
+    display: flex;
+    gap: 10px;
+    width: 90%;
+    margin-top: 2px;
+}
 
-
+.login_icons img{
+    
+}
