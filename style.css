@@ -6,6 +6,10 @@
     font-family: 'Lexend Deca', sans-serif;
 }   
 
+.main{
+    display: flex;
+}
+
 
 :root{
   --white: #FFF;
@@ -113,6 +117,7 @@
     background-color: black;
 }
 
+/* not implemented
 @keyframes button-animation{
     from{
          opacity: 50%;
@@ -122,6 +127,7 @@
         opacity: 100%;
     }
 }
+*/
 
 .Login_label--checkbox{
     
@@ -157,6 +163,7 @@
     
 }
 
+/* need improving*/
 .arrow-icon {
     width: 60px;
     height: 60px;
@@ -164,10 +171,20 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: var(--red);
+    background-color: white; 
     border-radius: 20px;
-    border: none;
+    border: none;    
     cursor: pointer;
-    margin-bottom: none;
-   
+    margin-bottom: var(--white) none;    
+    margin: none;
   }
+
+  .wallpaper {
+    width: 100%;
+    background-image: url('./images/wallpaper.jpg');
+    background-size: cover;
+    background-position: center;
+    flex: 1;
+  }
+ 
+  
